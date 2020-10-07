@@ -3,6 +3,10 @@ Implementation of minimal working feature store base on Lemonade home assignment
 
 # How in run the program?
 
+First, kill all processes running on port 5000 and 4000
+find those processes with: sudo lsof -i:<port>
+Then kill them with: kill -9 <pid>
+	
 1. clone the project to a local dir
 2. run in terminal (from rep dir) > python3 app.py (listening to port 5000)
 3. run in terminal (from rep dir) > python3 feature_store_app.py (listening to port 4000)
